@@ -2,6 +2,7 @@ import axios from "axios";
 import React from "react";
 import { useState } from "react";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default function (props) {
   let [temp, setTemp] = useState(null);
   let [wind, setWind] = useState(null);
